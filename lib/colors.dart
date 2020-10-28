@@ -161,7 +161,7 @@ class _ColorsPageState extends State<ColorsPage> {
       context: context,
       barrierDismissible: false,
       builder: (context) => AlertDialog(
-        content: Text('Time $time'),
+        content: Text('Tempo: $time segundos'),
         title:
             Text('Você Venceu!', style: Theme.of(context).textTheme.headline3),
         actions: [

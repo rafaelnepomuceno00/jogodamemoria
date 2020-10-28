@@ -167,7 +167,7 @@ class _NumbersPageState extends State<NumbersPage> {
       builder: (context) => AlertDialog(
         title:
             Text('Você Venceu!', style: Theme.of(context).textTheme.headline3),
-        content: Text('Time $time'),
+        content: Text('Tempo: $time segundos'),
         actions: [
           FlatButton(
             onPressed: () {
